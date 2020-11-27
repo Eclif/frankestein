@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-10 col-lg-12 col-md-9">
+            <div class="card o-hidden border-0 shadow-lg my-5">
+                <div class="card-body p-0">
+                    <!--Nested Row within Card Body-->
+                    <div class="row">
+                        <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                        <div class="col-lg-6">
+                            <div class="p-5">
+                                <div class="text-center mb-2">
+                                    <img src="../img/merval.png" height="60%;" width="60%">
+                                </div>
+                                <div class="text-center">
+                                    <h1 class="h4 text-gray-900 mt-5 mb-4">Bienvenido!</h1>
+                                </div>
+                                <div id="mensajeError" class="alert alert-danger" style="display: none;"></div>
+                                <div id="mensajeBuscando" class="alert alert-light" style="display: none;">
+                                    <span class="fa fa-spinner fa-spin fa-2x mr-1"></span>Searching ..
+                                </div>
+            
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend"><span class="input-group-text "><i class="fa fa-user text-warning"></i></span></div>
+                                    <input id="edUser" type="text" class="form-control" name="user" placeholder="Usuario">
+                                    <!--<input id="edUser" type="text" class="form-control" style="padding: 10px; border-radius: .25rem; height: auto; font-size: 15px;" name="user" placeholder="Usuario">-->
+                                </div>
+                                <div class="input-group my-2">
+                                    <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-lock text-warning"></i></span></div>
+                                    <input id="edPwd" type="password" class="form-control px-3" name="password" placeholder="Contraseña" data-z-autochange-delay="300">
+                                </div>
+                                <!--Botones-->
+                                <button id="cmdLogin" class="btn btn-lg btn-primary btn-block mt-5" type="button">
+                                    Log-in
+                                    <span class="ml-1 fa-lg fa-sign-in-alt fas"></span>
+                                </button>
+                                <div class="text-left mt-4 mb-4">
+                                    <a id="cmdOlvida"  style="color: #f38f1d;"> ¿Olvidaste tu contraseña?</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
